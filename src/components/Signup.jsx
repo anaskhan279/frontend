@@ -1,8 +1,9 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import "../styles/signUp.css"
 function Signup() {
     return (
-        <div className="container">
+        <>
             <div className="title">Registration</div>
             <div className="content">
                 <form action="/signup" method="POST">
@@ -33,14 +34,14 @@ function Signup() {
                         </div>
                     </div>
                     <div>
-                        already a member?<a href="/login.html">login</a>
+                        already a member?<a href="/Login.jsx">login</a>
                     </div>
                     <div className="button">
                         <input type="submit" />
                     </div>
                 </form>
             </div>
-        </div>
+        </>
 
     )
 }
