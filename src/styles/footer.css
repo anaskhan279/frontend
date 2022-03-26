@@ -1,0 +1,61 @@
+.footer-section {
+  height: 200px;
+  background-color: #222;
+  display: flex;
+}
+
+.side {
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.side:last-child {
+  flex: 2;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-title {
+  font-size: 18px;
+  color: #b7903c;
+}
+
+.footer-text {
+  color: lightgray;
+}
+
+
+.motto {
+  color: rgb(211, 211, 211);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer-section {
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .side:first-child {
+    display: none;
+  }
+
+  .side {
+    flex-direction: column;
+  }
+
+  .footer-title {
+    font-size: 30px;
+  }
+
+  .footer-text {
+    font-size: 20px;
+  }
+}
