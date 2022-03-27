@@ -2,11 +2,6 @@ import React from 'react'
 
 import "../styles/signUp.css"
 function Signup() {
-
-
-
-
-
     return (
         <div className="container1">
             <div className="title">Registration</div>

@@ -1,10 +1,11 @@
 import "../styles/footer.css";
+import bg from "../img/bg.png";
 
 const Footer = () => {
   return (
     <div className="footer-section">
       <div className="side">
-        <img src="../img/bg.png" objectFit="cover" layout="fill" alt="" />
+        <img src={bg} objectFit="cover" layout="fill" alt="" />
       </div>
       <div className="side">
         <div className="card">
