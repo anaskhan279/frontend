@@ -1,8 +1,14 @@
 import React from 'react'
 
+import "../styles/signUp.css"
 function Signup() {
+
+
+
+
+
     return (
-        <div className="container">
+        <div className="container1">
             <div className="title">Registration</div>
             <div className="content">
                 <form action="/signup" method="POST">
@@ -12,16 +18,8 @@ function Signup() {
                             <input type="text" name="fullname" placeholder="Enter your name" required />
                         </div>
                         <div className="input-box">
-                            <span className="details">Username</span>
-                            <input type="text" name="username" placeholder="Enter your username" required />
-                        </div>
-                        <div className="input-box">
                             <span className="details">Email</span>
                             <input type="text" name="email" placeholder="Enter your email" required />
-                        </div>
-                        <div className="input-box">
-                            <span className="details">Phone Number</span>
-                            <input type="text" name="phone" placeholder="Enter your number" required />
                         </div>
                         <div className="input-box">
                             <span className="details">Password</span>
@@ -36,11 +34,12 @@ function Signup() {
                         already a member?<a href="/login.html">login</a>
                     </div>
                     <div className="button">
-                        <input type="submit" />
+                      <button type="submit" >Sign Up</button>
                     </div>
                 </form>
             </div>
         </div>
+
 
     )
 }
