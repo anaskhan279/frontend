@@ -1,47 +1,48 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import "../styles/signUp.css"
 function Signup() {
     return (
-        <>
-            <div className="title">Registration</div>
-            <div className="content">
+        <div class="container1">
+            <div class="title">Registration</div>
+            <div class="content">
                 <form action="/signup" method="POST">
-                    <div className="user-details">
-                        <div className="input-box">
-                            <span className="details">Full Name</span>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
                             <input type="text" name="fullname" placeholder="Enter your name" required />
                         </div>
-                        <div className="input-box">
-                            <span className="details">Username</span>
+                        <div class="input-box">
+                            <span class="details">Username</span>
                             <input type="text" name="username" placeholder="Enter your username" required />
                         </div>
-                        <div className="input-box">
-                            <span className="details">Email</span>
+                        <div class="input-box">
+                            <span class="details">Email</span>
                             <input type="text" name="email" placeholder="Enter your email" required />
                         </div>
-                        <div className="input-box">
-                            <span className="details">Phone Number</span>
+                        <div class="input-box">
+                            <span class="details">Phone Number</span>
                             <input type="text" name="phone" placeholder="Enter your number" required />
                         </div>
-                        <div className="input-box">
-                            <span className="details">Password</span>
+                        <div class="input-box">
+                            <span class="details">Password</span>
                             <input type="password" name="password" placeholder="Enter your password" required />
                         </div>
-                        <div className="input-box">
-                            <span className="details">Confirm Password</span>
+                        <div class="input-box">
+                            <span class="details">Confirm Password</span>
                             <input type="password" name="confirmpassword" placeholder="Confirm your password" required />
                         </div>
                     </div>
                     <div>
-                        already a member?<a href="/Login.jsx">login</a>
+                        already a member?<a href="/login.html">login</a>
                     </div>
-                    <div className="button">
-                        <input type="submit" />
+                    <div class="button">
+                        <a href="/submit.html"><input type="submit" /></a>
                     </div>
                 </form>
             </div>
-        </>
+        </div>
+
 
     )
 }
