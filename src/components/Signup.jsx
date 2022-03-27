@@ -13,16 +13,8 @@ function Signup() {
                             <input type="text" name="fullname" placeholder="Enter your name" required />
                         </div>
                         <div class="input-box">
-                            <span class="details">Username</span>
-                            <input type="text" name="username" placeholder="Enter your username" required />
-                        </div>
-                        <div class="input-box">
                             <span class="details">Email</span>
                             <input type="text" name="email" placeholder="Enter your email" required />
-                        </div>
-                        <div class="input-box">
-                            <span class="details">Phone Number</span>
-                            <input type="text" name="phone" placeholder="Enter your number" required />
                         </div>
                         <div class="input-box">
                             <span class="details">Password</span>
