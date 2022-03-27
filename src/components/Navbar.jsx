@@ -1,11 +1,13 @@
 import "../styles/navbar.css";
+import call from "../img/telephone.png";
+import cart from "../img/cart.png";
 
 const Navbar = () => {
   return (
     <div className="container">
       <div className="item">
         <div className="callButton">
-          <img src="https://png.pngtree.com/png-clipart/20191027/ourmid/pngtree-telephone-glyph-icon-vector-png-image_5199512.png" alt="" width="32" height="32" />
+          <img src={call} alt="" width="32" height="32" />
         </div>
         <div className="texts">
           <div className="text">ORDER NOW!</div>
@@ -14,17 +16,13 @@ const Navbar = () => {
       </div>
       <div className="item">
         <ul className="list">
-          <li className="listItem">Homepage</li>
-          <li className="listItem">Products</li>
-          <li className="listItem">Menu</li>
-          <li className="listItem">Events</li>
-          <li className="listItem">Blog</li>
-          <li className="listItem">Contact</li>
+          <li className="listItem">Login</li>
+          <li className="listItem">Signup</li>
         </ul>
       </div>
       <div className="item">
         <div className="cart">
-          <img src="https://png.pngtree.com/element_our/20190531/ourmid/pngtree-shopping-cart-convenient-icon-image_1287807.jpg" alt="" width="30px" height="30px" />
+          <img src={cart} alt="" width="30px" height="30px" />
           <div className="counter">2</div>
         </div>
       </div>

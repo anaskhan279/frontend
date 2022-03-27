@@ -13,6 +13,7 @@
 }
 .product-card{
     width: 200px;
+    cursor: pointer;
 }
 .product-image{
     height: 150px;
